@@ -27,6 +27,8 @@ python adivina-el-mineral.py
 4) Cuando se te pida, introduce la ruta del directorio donde están las imágenes, por ejemplo, ./minerales.
 
 
+Si prefieres no instalar nada localmente, puedes ejecutar este proyecto en Google Colab o Binder.
+
 ## Ejecución en Google Colab
 1) Sube las imágenes a Google Colab.
 2) Sube el archivo adivina-el-mineral.py a Google Colab.
@@ -37,5 +39,18 @@ python adivina-el-mineral.py
 
 ```
 
-6) Cuando se te pida, introduce la ruta /content/ como el directorio donde están las imágenes.
+4) Cuando se te pida, introduce la ruta /content/ como el directorio donde están las imágenes.
+
+## Ejecución en Binder
+1) Entra en Binder y en el campo "GitHub repository name or URL", introduce la URL de este repositorio
+2) Deja el resto de campos por defecto y haz clic en "Launch" para iniciar el entorno de Binder.
+3) Una vez que se cargue Binder, abre el archivo adivina-el-mineral.py
+4) Ejecuta el script en el terminal integrado de Binder utilizando el siguiente comando:
+
+```bash
+   python adivina-el-mineral.py
+
+```
+
+5) Cuando se ejecute se pedirá la ruta del directorio donde están las imágenes.
 
