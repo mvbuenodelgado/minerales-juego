@@ -19,16 +19,22 @@ def mostrar_imagen_aleatoria(directorio):
 
 # Función principal del juego
 def juego_minerales(directorio):
-    imagen_aleatoria = mostrar_imagen_aleatoria(directorio)
-    respuesta = input("¿Cuál es el nombre del mineral? (Recuerda escribirlo todo en minúsculas) ")
-    nombre_correcto = os.path.splitext(imagen_aleatoria)[0]
+    while True:
+        imagen_aleatoria = mostrar_imagen_aleatoria(directorio)
+        respuesta = input("¿Cuál es el nombre del mineral? (Escribe 'salir' para terminar el juego) ")
 
-    if respuesta.lower() == nombre_correcto.lower():
-        print("¡Correcto!")
-    else:
-        print(f"Incorrecto. El nombre correcto es: {nombre_correcto}")
+        if respuesta.lower() == 'salir':
+            print("Gracias por jugar. ¡Hasta la próxima!")
+            break
+        
+        nombre_correcto = os.path.splitext(imagen_aleatoria)[0]
 
-# Solicitar al usuario la ruta del directorio
+        if respuesta.lower() == nombre_correcto.lower():
+            print("¡Correcto!")
+        else:
+            print(f"Incorrecto. El nombre correcto es: {nombre_correcto}")
+
+# Solicitar al usuario la ruta del directorio solo una vez
 directorio = input("Introduce la ruta del directorio donde están las imágenes: ")
 
 # Ejecutar el juego
