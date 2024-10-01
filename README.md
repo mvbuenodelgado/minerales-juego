@@ -24,7 +24,7 @@ python adivina-el-mineral.py
 
 ```
 
-4) Cuando se te pida, introduce la ruta del directorio donde están las imágenes, por ejemplo, ./minerales.
+4) Cuando se te pida, introduce la ruta del directorio donde están las imágenes, p.ej., ./minerales.
 
 
 Si prefieres no instalar nada localmente, puedes ejecutar este proyecto en Binder o Google Colab.
