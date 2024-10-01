@@ -43,5 +43,5 @@ Si prefieres no instalar nada localmente, puedes ejecutar este proyecto en Binde
 2) En el menú, selecciona "File" > "Open notebook...".
 3) Ve a la pestaña "GitHub" e introduce la URL de este repositorio. Presiona Enter.
 4) Selecciona el archivo adivina_el_mineral.ipynb de la lista de archivos.
-5) Ejecuta las celdas del cuaderno en el orden correspondiente. Cuando se ejecute el código del juego, se te pedirá que introduzcas la ruta del directorio donde están las imágenes (por ejemplo, ./minerales).
+5) Ejecuta las celdas del cuaderno en el orden correspondiente. Cuando se ejecute el código del juego, se te pedirá que introduzcas la ruta del directorio donde están las imágenes (p.ej., ./minerales).
 
