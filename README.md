@@ -39,9 +39,15 @@ Si prefieres no instalar nada localmente, puedes ejecutar este proyecto en Binde
 
 
 ## Ejecución en Google Colab
-1) Abre Google Colab.
-2) En el menú, selecciona "File" > "Open notebook...".
-3) Ve a la pestaña "GitHub" e introduce la URL de este repositorio. Presiona Enter.
-4) Selecciona el archivo adivina_el_mineral.ipynb de la lista de archivos.
-5) Ejecuta las celdas del cuaderno en el orden correspondiente. Cuando se ejecute el código del juego, se te pedirá que introduzcas la ruta del directorio donde están las imágenes (p.ej., ./minerales).
+1. Abre https://colab.research.google.com/.
+2. Selecciona «Archivo → Abrir cuaderno» y entra en la pestaña «GitHub».
+3. Introduce https://github.com/mvbuenodelgado/minerales-juego.
+4. Abre el archivo adivina-el-mineral.ipynb.
+5. Ejecuta la primera celda y espera a que aparezca «Fotos listas».
+6. Ejecuta la segunda celda para empezar a jugar.
+7. Escribe el nombre del mineral en la casilla y pulsa «Comprobar».
+8. Pulsa «Siguiente mineral» para continuar.
+
+Las fotos se descargan automáticamente. No necesitas subir imágenes
+ni introducir rutas. Mantén la sesión de Colab conectada mientras juegas.imágenes (p.ej., ./minerales).
 
